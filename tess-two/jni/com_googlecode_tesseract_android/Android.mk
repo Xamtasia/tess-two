@@ -70,7 +70,12 @@ LOCAL_SRC_FILES += \
 LOCAL_C_INCLUDES += \
   $(LOCAL_PATH)
 
-LOCAL_LDLIBS += \
+#LOCAL_LDLIBS += \
+#  -latomic \
+#  -ljnigraphics \
+#  -llog
+
+LOCAL_SHARED_LIBRARIES += \
   -latomic \
   -ljnigraphics \
   -llog
